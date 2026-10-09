@@ -1,0 +1,46 @@
+[
+  {
+    "id": "sample_trip_01",
+    "title": "5 Days in Goa with Friends (Beaches & Nightlife)",
+    "query": "I have 5 days and around ₹40,000. I'm travelling with friends and want beaches, good food, nightlife and some adventure.",
+    "destination": "Goa",
+    "duration_days": 5,
+    "budget": 40000,
+    "traveler_type": "friends",
+    "interests": ["beaches", "nightlife", "food", "adventure"],
+    "expected_feasibility": true
+  },
+  {
+    "id": "sample_trip_02",
+    "title": "4 Days in Manali Adventure Getaway",
+    "query": "4 days mountain trip with friends for paragliding, river rafting, and scenic trekking under ₹30,000.",
+    "destination": "Manali",
+    "duration_days": 4,
+    "budget": 30000,
+    "traveler_type": "friends",
+    "interests": ["adventure", "nature", "wellness"],
+    "expected_feasibility": true
+  },
+  {
+    "id": "sample_trip_03",
+    "title": "3 Days Jaipur Royal Cultural Extravaganza",
+    "query": "3 days family heritage tour exploring royal forts, palace architecture, and traditional Rajasthani dining for ₹35,000.",
+    "destination": "Jaipur",
+    "duration_days": 3,
+    "budget": 35000,
+    "traveler_type": "family",
+    "interests": ["heritage", "food", "shopping"],
+    "expected_feasibility": true
+  },
+  {
+    "id": "sample_trip_04",
+    "title": "7 Days Bali Wellness & Couple Retreat",
+    "query": "7 days romantic couple trip in Bali with yoga retreats, rice terrace walks, and sunset beach clubs with ₹1,20,000 budget.",
+    "destination": "Bali",
+    "duration_days": 7,
+    "budget": 120000,
+    "traveler_type": "couple",
+    "interests": ["wellness", "beaches", "nature"],
+    "expected_feasibility": true
+  }
+]

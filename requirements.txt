@@ -1,0 +1,22 @@
+# Waypoint: AI-Powered Travel Planning & Itinerary Assistant
+fastapi>=0.110.0
+uvicorn[standard]>=0.28.0
+pydantic>=2.6.0
+pydantic-settings>=2.2.0
+langgraph>=0.0.30
+langchain-core>=0.1.30
+google-genai>=0.1.0
+google-generativeai>=0.4.0
+chromadb>=0.4.24
+rank-bm25>=0.2.2
+sentence-transformers>=2.5.0
+pandas>=2.2.0
+numpy>=1.26.0
+python-dotenv>=1.0.1
+requests>=2.31.0
+reportlab>=4.1.0
+python-pptx>=0.6.23
+pytest>=8.0.0
+pytest-asyncio>=0.23.0
+streamlit>=1.32.0
+deepeval>=4.2.8,<5

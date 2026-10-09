@@ -1,0 +1,230 @@
+{
+  "priced_from": "Delhi",
+  "basis": "One adult, sharing a room. Mid-range totals from published 2025-2026 ranges. Not a live fare.",
+  "places": [
+    {
+      "names": ["Leh Ladakh", "Leh", "Ladakh"],
+      "days": 6,
+      "trip_per_person": 44000,
+      "included_mode": "flight",
+      "note": "6 days from Delhi for one adult sharing a room: about ₹14,000 return flight plus about ₹30,000 on the ground for a guesthouse, a shared taxi, meals, and permits.",
+      "source": "2026 Ladakh cost guides and a September 2026 Delhi–Leh fare check. Return flights were quoted around ₹10,000–₹20,000; a mid 5–6 day land cost sits above that.",
+      "modes": [
+        {"mode": "flight", "label": "IndiGo / Air India", "per_person_price": 14000, "duration": "about 1 hour 20 minutes each way", "duration_minutes": 80, "stops": "Non-stop"}
+      ]
+    },
+    {
+      "names": ["Manali"],
+      "days": 5,
+      "trip_per_person": 18000,
+      "included_mode": "bus",
+      "note": "5 days from Delhi for one adult sharing a room, usually by Volvo. About ₹3,500 for the bus and about ₹14,500 for a simple hotel, meals, and a shared sightseeing taxi.",
+      "source": "2025–2026 Manali budget guides: Volvo about ₹1,200–₹2,500 each way, and a 5-day land cost around ₹13,000–₹19,000 before or beside the bus.",
+      "modes": [
+        {"mode": "bus", "label": "Volvo overnight bus", "per_person_price": 3500, "duration": "about 12 to 14 hours each way", "duration_minutes": 780, "stops": "Direct"},
+        {"mode": "flight", "label": "Flight to Kullu–Bhuntar, then a taxi", "per_person_price": 12000, "duration": "about 1 hour 30 minutes plus a 2 hour taxi", "duration_minutes": 210, "stops": "Non-stop, then a road transfer"}
+      ]
+    },
+    {
+      "names": ["Goa"],
+      "days": 6,
+      "trip_per_person": 28000,
+      "included_mode": "flight",
+      "note": "6 days from Delhi for one adult sharing a room. About ₹7,000 return flight and about ₹21,000 for a mid hotel, meals, a scooter, and a few activities.",
+      "source": "2025 Goa 5-day budgets of about ₹15,000–₹35,000 including flights, stretched to 6 days at a mid hotel.",
+      "modes": [
+        {"mode": "flight", "label": "IndiGo / Air India", "per_person_price": 7000, "duration": "about 2 hours 30 minutes each way", "duration_minutes": 150, "stops": "Non-stop or 1 stop"},
+        {"mode": "train", "label": "Indian Railways, AC 3-tier or 2A", "per_person_price": 4500, "duration": "about 24 to 36 hours each way", "duration_minutes": 1800, "stops": "Direct or 1 change"},
+        {"mode": "bus", "label": "Volvo sleeper", "per_person_price": 5000, "duration": "about 30 to 36 hours each way", "duration_minutes": 2000, "stops": "Direct or 1 change"}
+      ]
+    },
+    {
+      "names": ["Jaipur"],
+      "days": 5,
+      "trip_per_person": 18000,
+      "included_mode": "train",
+      "note": "5 days from Delhi for one adult sharing a room, by train. About ₹2,000 for AC rail and about ₹16,000 for a haveli, meals, autos, and fort tickets.",
+      "source": "Delhi–Jaipur is a short rail hop. A 5-day Rajasthan land cost for one city sits inside the published ₹12,000–₹30,000 band before a long-distance flight.",
+      "modes": [
+        {"mode": "train", "label": "Indian Railways, Shatabdi or AC chair car", "per_person_price": 2000, "duration": "about 4 to 5 hours each way", "duration_minutes": 270, "stops": "Direct"},
+        {"mode": "bus", "label": "Volvo", "per_person_price": 1600, "duration": "about 5 to 6 hours each way", "duration_minutes": 330, "stops": "Direct"},
+        {"mode": "flight", "label": "IndiGo / Air India", "per_person_price": 6000, "duration": "about 1 hour 15 minutes each way", "duration_minutes": 75, "stops": "Non-stop"}
+      ]
+    },
+    {
+      "names": ["Jodhpur"],
+      "days": 5,
+      "trip_per_person": 25000,
+      "included_mode": "flight",
+      "note": "5 days from Delhi for one adult sharing a room. About ₹9,000 return flight and about ₹16,000 for a fort-area hotel, meals, and Mehrangarh.",
+      "source": "Rajasthan 5-day mid-range guides, with a Delhi–Jodhpur flight instead of a same-day train.",
+      "modes": [
+        {"mode": "flight", "label": "IndiGo / Air India", "per_person_price": 9000, "duration": "about 1 hour 30 minutes each way", "duration_minutes": 90, "stops": "Non-stop or 1 stop"},
+        {"mode": "train", "label": "Indian Railways, AC 3-tier", "per_person_price": 2800, "duration": "about 10 to 12 hours each way", "duration_minutes": 660, "stops": "Direct or 1 change"}
+      ]
+    },
+    {
+      "names": ["Jaisalmer"],
+      "days": 5,
+      "trip_per_person": 32000,
+      "included_mode": "flight",
+      "note": "5 days from Delhi for one adult sharing a room, including a desert camp night. About ₹11,000 return flight and about ₹21,000 for the camp, meals, and a jeep or camel outing.",
+      "source": "Rajasthan mid-range ranges, with the desert camp as the extra cost over a Jaipur or Jodhpur stay.",
+      "modes": [
+        {"mode": "flight", "label": "IndiGo / Air India", "per_person_price": 11000, "duration": "about 1 hour 45 minutes each way", "duration_minutes": 105, "stops": "Non-stop or 1 stop"},
+        {"mode": "train", "label": "Indian Railways, AC 3-tier", "per_person_price": 3500, "duration": "about 16 to 18 hours each way", "duration_minutes": 1020, "stops": "Direct or 1 change"}
+      ]
+    },
+    {
+      "names": ["Udaipur"],
+      "days": 6,
+      "trip_per_person": 35000,
+      "included_mode": "flight",
+      "note": "6 days from Delhi for one adult sharing a room. About ₹10,000 return flight and about ₹25,000 for a lakeside hotel, meals, a boat, and the palaces.",
+      "source": "Rajasthan 5-day mid-range of about ₹32,500–₹45,000 for a longer circuit, scaled to one city for 6 days including the Delhi flight.",
+      "modes": [
+        {"mode": "flight", "label": "IndiGo / Air India", "per_person_price": 10000, "duration": "about 1 hour 40 minutes each way", "duration_minutes": 100, "stops": "Non-stop or 1 stop"},
+        {"mode": "train", "label": "Indian Railways, AC 3-tier", "per_person_price": 3200, "duration": "about 12 hours each way", "duration_minutes": 720, "stops": "Direct or 1 change"}
+      ]
+    },
+    {
+      "names": ["Varanasi"],
+      "days": 5,
+      "trip_per_person": 14000,
+      "included_mode": "train",
+      "note": "5 days from Delhi for one adult sharing a room, by train. About ₹2,500 for AC rail and about ₹11,500 for a ghat hotel, meals, a boat, and the evening aarti.",
+      "source": "Varanasi stays and ghats are inexpensive beside the Delhi train. A flight is the faster option on the same card.",
+      "modes": [
+        {"mode": "train", "label": "Indian Railways, AC 3-tier or Vande Bharat", "per_person_price": 2500, "duration": "about 8 to 12 hours each way", "duration_minutes": 600, "stops": "Direct"},
+        {"mode": "flight", "label": "IndiGo / Air India", "per_person_price": 7000, "duration": "about 1 hour 30 minutes each way", "duration_minutes": 90, "stops": "Non-stop"}
+      ]
+    },
+    {
+      "names": ["Rishikesh"],
+      "days": 5,
+      "trip_per_person": 14000,
+      "included_mode": "bus",
+      "note": "5 days from Delhi for one adult sharing a room. About ₹1,500 for the bus and about ₹12,500 for a riverside stay, meals, and one rafting trip.",
+      "source": "Delhi to Rishikesh is an overnight bus or a train to Haridwar plus a short taxi. Rafting is the main paid activity.",
+      "modes": [
+        {"mode": "bus", "label": "Volvo to Rishikesh", "per_person_price": 1500, "duration": "about 6 to 7 hours each way", "duration_minutes": 390, "stops": "Direct"},
+        {"mode": "train", "label": "Train to Haridwar, then a taxi", "per_person_price": 1800, "duration": "about 5 hours plus a 1 hour taxi", "duration_minutes": 360, "stops": "Direct, then a road transfer"}
+      ]
+    },
+    {
+      "names": ["Amritsar"],
+      "days": 5,
+      "trip_per_person": 16000,
+      "included_mode": "train",
+      "note": "5 days from Delhi for one adult sharing a room, by train. About ₹3,000 for a fast train and about ₹13,000 for a hotel, meals, and the Wagah evening.",
+      "source": "Delhi–Amritsar Shatabdi and Vande Bharat fares, plus a modest old-city stay. The Golden Temple itself has no entry fee.",
+      "modes": [
+        {"mode": "train", "label": "Shatabdi or Vande Bharat", "per_person_price": 3000, "duration": "about 6 hours each way", "duration_minutes": 360, "stops": "Direct"},
+        {"mode": "flight", "label": "IndiGo / Air India", "per_person_price": 7000, "duration": "about 1 hour 15 minutes each way", "duration_minutes": 75, "stops": "Non-stop"},
+        {"mode": "bus", "label": "Volvo", "per_person_price": 2500, "duration": "about 8 to 9 hours each way", "duration_minutes": 510, "stops": "Direct"}
+      ]
+    },
+    {
+      "names": ["Kashmir"],
+      "days": 6,
+      "trip_per_person": 36000,
+      "included_mode": "flight",
+      "note": "6 days from Delhi for one adult sharing a room: Srinagar, Gulmarg, and Pahalgam. About ₹10,000 return flight and about ₹26,000 for hotels, a shared cab, meals, and the gondola.",
+      "source": "2025–2026 Kashmir packages from Delhi with flights cluster around ₹30,000–₹38,000 for a mid 5-night trip.",
+      "modes": [
+        {"mode": "flight", "label": "IndiGo / Air India to Srinagar", "per_person_price": 10000, "duration": "about 1 hour 30 minutes each way", "duration_minutes": 90, "stops": "Non-stop"}
+      ]
+    },
+    {
+      "names": ["Srinagar"],
+      "days": 5,
+      "trip_per_person": 28000,
+      "included_mode": "flight",
+      "note": "5 days from Delhi based in Srinagar, for one adult sharing a room. About ₹10,000 return flight and about ₹18,000 for a houseboat or hotel, a shikara, and meals.",
+      "source": "Same Delhi–Srinagar fare band as the Kashmir circuit, with fewer valley transfers because the nights stay on Dal Lake.",
+      "modes": [
+        {"mode": "flight", "label": "IndiGo / Air India", "per_person_price": 10000, "duration": "about 1 hour 30 minutes each way", "duration_minutes": 90, "stops": "Non-stop"}
+      ]
+    },
+    {
+      "names": ["Kerala (Munnar & Alleppey)", "Kerala backwaters"],
+      "days": 5,
+      "trip_per_person": 32000,
+      "included_mode": "flight",
+      "note": "5 days from Delhi for one adult sharing a room: Kochi, Munnar, and a houseboat night. About ₹10,000 return flight and about ₹22,000 on the ground.",
+      "source": "Published 5-day Munnar–Alleppey packages start near ₹22,000–₹25,000 per person before or beside a Kochi flight in the ₹8,000–₹14,000 band.",
+      "modes": [
+        {"mode": "flight", "label": "IndiGo / Air India to Kochi", "per_person_price": 10000, "duration": "about 3 hours each way", "duration_minutes": 180, "stops": "Non-stop or 1 stop"},
+        {"mode": "train", "label": "Indian Railways to Ernakulam", "per_person_price": 4500, "duration": "about 36 to 48 hours each way", "duration_minutes": 2400, "stops": "Direct or 1 change"}
+      ]
+    },
+    {
+      "names": ["Kerala (Periyar & Wayanad)", "Kerala wildlife"],
+      "days": 5,
+      "trip_per_person": 30000,
+      "included_mode": "flight",
+      "note": "5 days from Delhi for one adult sharing a room, flying into Kochi and staying near Periyar. About ₹10,000 return flight and about ₹20,000 for the resort, a boat, and meals.",
+      "source": "Kochi flight band plus a wildlife-lodge stay, close to the Munnar–Alleppey package and without the houseboat.",
+      "modes": [
+        {"mode": "flight", "label": "IndiGo / Air India to Kochi", "per_person_price": 10000, "duration": "about 3 hours each way", "duration_minutes": 180, "stops": "Non-stop or 1 stop"},
+        {"mode": "train", "label": "Indian Railways to Ernakulam", "per_person_price": 4500, "duration": "about 36 to 48 hours each way", "duration_minutes": 2400, "stops": "Direct or 1 change"}
+      ]
+    },
+    {
+      "names": ["Jim Corbett & Ranthambore"],
+      "days": 5,
+      "trip_per_person": 36000,
+      "included_mode": "train",
+      "note": "5 days from Delhi for one adult sharing a jeep and a room, with safaris at both parks. The jeeps are most of the ₹36,000. Trains from Delhi are only a few thousand.",
+      "source": "A 2025 couple budget for both parks was about ₹52,000–₹81,000 for two, which is about ₹26,000–₹40,000 a person.",
+      "modes": [
+        {"mode": "train", "label": "Trains toward Ramnagar and Sawai Madhopur", "per_person_price": 3500, "duration": "about 5 to 7 hours each way", "duration_minutes": 360, "stops": "Direct or 1 change"},
+        {"mode": "flight", "label": "Flights toward Dehradun or Jaipur, then a long taxi", "per_person_price": 9000, "duration": "about 1 hour 30 minutes plus a 4 to 6 hour taxi", "duration_minutes": 400, "stops": "Non-stop, then a road transfer"}
+      ]
+    },
+    {
+      "names": ["Andaman Islands", "Andaman", "Andaman & Nicobar"],
+      "days": 6,
+      "trip_per_person": 48000,
+      "included_mode": "flight",
+      "note": "6 days from Delhi for one adult sharing a room, with a Havelock ferry and one scuba or boat day. About ₹14,000 return flight and about ₹34,000 on the islands.",
+      "source": "2025–2026 Andaman 7-day budgets run about ₹25,000–₹40,000 at the low end and ₹60,000–₹99,000 mid-range, including flights from the mainland.",
+      "modes": [
+        {"mode": "flight", "label": "IndiGo / Air India / Vistara to Port Blair", "per_person_price": 14000, "duration": "about 3 to 4 hours each way", "duration_minutes": 210, "stops": "Non-stop or 1 stop"}
+      ]
+    },
+    {
+      "names": ["Phuket"],
+      "days": 5,
+      "trip_per_person": 56000,
+      "included_mode": "flight",
+      "note": "5 days from Delhi for one adult sharing a room. About ₹32,000 return flight and about ₹24,000 for a beach hotel, meals, and one island tour.",
+      "source": "MakeMyTrip Phuket packages around ₹55,000–₹64,000 per person for 5–6 days, and Thailand mid-range guides of about ₹45,000–₹75,000 from India.",
+      "modes": [
+        {"mode": "flight", "label": "IndiGo / Thai Airways / Air India", "per_person_price": 32000, "duration": "about 5 to 7 hours each way", "duration_minutes": 360, "stops": "Non-stop or 1 stop"}
+      ]
+    },
+    {
+      "names": ["Bali"],
+      "days": 5,
+      "trip_per_person": 70000,
+      "included_mode": "flight",
+      "note": "5 days from Delhi for one adult sharing a room. About ₹35,000 return flight, plus the visa levy, a shared stay, meals, and a driver or scooter. A fuller 7-day mid trip is closer to ₹90,000.",
+      "source": "2025 Bali group-trip breakdowns from India: about ₹64,000 budget to ₹93,000 mid for 7 days. This card is the shorter 5-day version.",
+      "modes": [
+        {"mode": "flight", "label": "IndiGo / Air India / Singapore Airlines", "per_person_price": 35000, "duration": "about 8 to 12 hours each way", "duration_minutes": 600, "stops": "1 stop"}
+      ]
+    },
+    {
+      "names": ["Maldives"],
+      "days": 6,
+      "trip_per_person": 90000,
+      "included_mode": "flight",
+      "note": "6 days from Delhi for one adult sharing a room on a local island, not a water villa. About ₹22,000 return flight and about ₹68,000 for the stay, speedboats, and meals. Resort packages with flights are often ₹1.1–1.5 lakh.",
+      "source": "2025 Maldives budget guides of ₹45,000–₹65,000 for 5 guesthouse days, and 4-night flight packages listed from about ₹55,000 to ₹1.2 lakh.",
+      "modes": [
+        {"mode": "flight", "label": "IndiGo / Air India to Malé", "per_person_price": 22000, "duration": "about 4 hours each way", "duration_minutes": 240, "stops": "Non-stop or 1 stop"}
+      ]
+    }
+  ]
+}

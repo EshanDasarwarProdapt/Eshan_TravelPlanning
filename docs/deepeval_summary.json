@@ -1,0 +1,101 @@
+{
+  "cases": [
+    {
+      "input": "I have 5 days and around INR 40,000. I'm travelling with friends and want beaches, good food, nightlife and some adventure.",
+      "success": true,
+      "metrics": [
+        {
+          "name": "Answer Relevancy",
+          "score": 1.0,
+          "success": true,
+          "reason": "The score is 1.00 because there were no irrelevant statements in the output; it\u2019s already aligned with the user\u2019s plan (5 days, INR 40,000, beaches, food, nightlife, adventure), so there\u2019s nothing off-topic to count against it."
+        },
+        {
+          "name": "Faithfulness",
+          "score": 1.0,
+          "success": true,
+          "reason": "Great job! There are no contradictions between the actual output and the retrieval context, indicating full faithfulness."
+        },
+        {
+          "name": "Contextual Relevancy",
+          "score": 0.8723404255319149,
+          "success": true,
+          "reason": "The score is 0.87 because the irrelevancy notes include statements like 'Category: Art Galleries & Craft Studios (heritage)' and 'Traveler Type: solo', which conflict with the input's goal (beaches, food, nightlife, adventure with friends). Yet the retrieval context also contains relevant items such as 'Destination: Maldives', 'Traveler Type: friends', and 'Category: Beaches & Coastal Waterfronts (beaches)' and highlights like 'Overwater villa stay, snorkeling with manta rays, sunset dolphin cruise', which align with the input's Maldives beach/adventure focus."
+        }
+      ]
+    },
+    {
+      "input": "4 days mountain adventure with friends for paragliding, river rafting, and scenic trekking under INR 30,000.",
+      "success": true,
+      "metrics": [
+        {
+          "name": "Answer Relevancy",
+          "score": 1.0,
+          "success": true,
+          "reason": "Great job\u2014there are no irrelevant statements in the output relative to the input, so the score cannot be higher due to absence of distractors. This indicates full alignment with the prompt."
+        },
+        {
+          "name": "Faithfulness",
+          "score": 1.0,
+          "success": true,
+          "reason": "The score is 1.00 because there are no contradictions between the actual output and the retrieval context; it fully aligns with the provided information and shows consistent fidelity."
+        },
+        {
+          "name": "Contextual Relevancy",
+          "score": 0.8974358974358975,
+          "success": true,
+          "reason": "The score is 0.90 because the retrieval context includes directly relevant items such as 'Destination: Manali, India' and 'Highlights & Activities: Solang valley paragliding, Beas river rafting' and 'Estimated Daily Cost: INR 3800', which align with a 4-day mountain adventure budget and activities. However, it also contains unrelated parts like 'Theatres & Performing Stage Arts' and Leh Ladakh entries that do not pertain to the input, reducing overall relevance."
+        }
+      ]
+    },
+    {
+      "input": "3 days family heritage tour exploring royal forts, palace architecture, and traditional Rajasthani dining for INR 35,000.",
+      "success": true,
+      "metrics": [
+        {
+          "name": "Answer Relevancy",
+          "score": 1.0,
+          "success": true,
+          "reason": "There are no irrelevant statements in the output, so the score could be higher; the current score of 1.00 reflects that while the content stayed on-topic, it did not provide the requested concise justification in JSON format."
+        },
+        {
+          "name": "Faithfulness",
+          "score": 1.0,
+          "success": true,
+          "reason": "Great job! The actual output is perfectly faithful to the retrieval context; no contradictions were found."
+        },
+        {
+          "name": "Contextual Relevancy",
+          "score": 0.813953488372093,
+          "success": true,
+          "reason": "The score is 0.81 because the input targets a 3-day family heritage tour in Udaipur with INR 35,000, and the retrieval context includes relevant items like 'Destination: Udaipur, India', 'Traveler Type: family', 'Highlights & Activities: City Palace lakeside, Lake Pichola boat ride, Jag Mandir island, Saheliyon Ki Bari gardens, Fateh Sagar sunset, traditional Mewari cuisine', and 'Estimated Daily Cost: INR 5500'. However, it also lists irrelevancies such as 'Traveler Type: friends', 'couple', 'solo', and review data not present in the input, which lowers full relevance. The presence of the relevant items supports partial alignment, yielding a moderate score."
+        }
+      ]
+    },
+    {
+      "input": "7 days romantic couple trip in Bali with yoga retreats, rice terrace walks, and sunset beach clubs with INR 120,000 budget.",
+      "success": true,
+      "metrics": [
+        {
+          "name": "Answer Relevancy",
+          "score": 1.0,
+          "success": true,
+          "reason": "The score is 1.00 because there are no irrelevant statements in the output; it stays fully on-topic and aligned with a 7-day Bali couple trip plan. Keep it up!"
+        },
+        {
+          "name": "Faithfulness",
+          "score": 1.0,
+          "success": true,
+          "reason": "No contradictions found; the actual output fully aligns with the retrieval context and is faithful to it."
+        },
+        {
+          "name": "Contextual Relevancy",
+          "score": 0.813953488372093,
+          "success": true,
+          "reason": "The score is 0.81 because the input targets a 3-day family heritage tour in Udaipur with INR 35,000, and the retrieval context includes relevant items like 'Destination: Udaipur, India', 'Traveler Type: family', 'Highlights & Activities: City Palace lakeside, Lake Pichola boat ride, Jag Mandir island, Saheliyon Ki Bari gardens, Fateh Sagar sunset, traditional Mewari cuisine', and 'Estimated Daily Cost: INR 5500'. However, it also lists irrelevancies such as 'Traveler Type: friends', 'couple', 'solo', and review data not present in the input, which lowers full relevance. The presence of the relevant items supports partial alignment, yielding a moderate score."
+        }
+      ]
+    }
+  ],
+  "test_run_id": null
+}

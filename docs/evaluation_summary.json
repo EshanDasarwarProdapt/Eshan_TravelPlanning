@@ -1,0 +1,62 @@
+{
+  "summary": {
+    "mean_retrieval_relevance": 0.942,
+    "mean_faithfulness_grounding": 0.91,
+    "mean_preference_alignment": 0.965,
+    "mean_itinerary_coherence": 0.94,
+    "mean_overall_quality": 0.938,
+    "mean_latency_ms": 172.5,
+    "total_test_cases": 4,
+    "pass_rate_pct": 100.0
+  },
+  "cases": [
+    {
+      "query_id": "Q1",
+      "query": "I have 5 days and around INR 40,000. I'm travelling with friends and want beaches, good food, nightlife and some adventure.",
+      "selected_destination": "Goa",
+      "retrieval_relevance": 0.925,
+      "preference_alignment": 0.94,
+      "faithfulness_grounding": 0.91,
+      "itinerary_coherence": 0.94,
+      "overall_quality": 0.93,
+      "latency_ms": 409.3,
+      "status": "PASSED"
+    },
+    {
+      "query_id": "Q2",
+      "query": "4 days mountain adventure with friends for paragliding, river rafting, and scenic trekking under INR 30,000.",
+      "selected_destination": "Manali",
+      "retrieval_relevance": 0.914,
+      "preference_alignment": 1.0,
+      "faithfulness_grounding": 0.91,
+      "itinerary_coherence": 0.94,
+      "overall_quality": 0.95,
+      "latency_ms": 89.2,
+      "status": "PASSED"
+    },
+    {
+      "query_id": "Q3",
+      "query": "3 days family heritage tour exploring royal forts, palace architecture, and traditional Rajasthani dining for INR 35,000.",
+      "selected_destination": "Jaipur",
+      "retrieval_relevance": 0.948,
+      "preference_alignment": 1.0,
+      "faithfulness_grounding": 0.91,
+      "itinerary_coherence": 0.94,
+      "overall_quality": 0.95,
+      "latency_ms": 74.7,
+      "status": "PASSED"
+    },
+    {
+      "query_id": "Q4",
+      "query": "7 days romantic couple trip in Bali with yoga retreats, rice terrace walks, and sunset beach clubs with INR 120,000 budget.",
+      "selected_destination": "Bali",
+      "retrieval_relevance": 0.982,
+      "preference_alignment": 0.92,
+      "faithfulness_grounding": 0.91,
+      "itinerary_coherence": 0.94,
+      "overall_quality": 0.92,
+      "latency_ms": 116.8,
+      "status": "PASSED"
+    }
+  ]
+}
