@@ -350,10 +350,6 @@ The repository includes all mandatory and recommended submission artifacts:
 5. `docs/Evaluation_Report.pdf`
 6. `presentation/Project_Presentation.pptx`
 
-To regenerate any deliverable:
-```bash
-python scripts/generate_deliverables.py
-```
 
 ---
 
